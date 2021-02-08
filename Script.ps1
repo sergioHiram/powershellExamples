@@ -6,4 +6,5 @@ $Data | ForEach-Object{
     Write-progress -id 1 -percent $perc -activity "Looking up $($Server)"    
     Start-Sleep -Milliseconds 500
     $Counter++
+    
 }
